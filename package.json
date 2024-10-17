@@ -4,15 +4,15 @@
   "description": "Projeto de automação de testes integrado da API de Usuários da organização XPTO",
   "main": "index.js",
   "scripts": {
-    "test": "mocha ./tests/test.js",
-    "test-e2e": "mocha ./tests/e2e/**.js",
-    "test-functional": "mocha ./tests/functional/**.js",
-    "test-contract": "mocha ./tests/contract/**.js"
+    "test-e2e": "mocha ./tests/e2e/**/**/**.js",
+    "test-functional": "mocha ./tests/functional/**/**/**.js",
+    "test-contract": "mocha ./tests/contract/**/**/**.js"
   },
   "author": "",
   "license": "ISC",
   "devDependencies": {
     "@faker-js/faker": "^9.0.3",
+    "chai": "^4.2.0",
     "joi": "^17.13.3",
     "mocha": "^10.7.3",
     "pactum": "^3.7.1"
