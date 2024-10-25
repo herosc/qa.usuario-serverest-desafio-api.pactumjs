@@ -47,6 +47,15 @@ const ct004 = {
     }
 }
 
+const ct005 = {
+    request: {
+        nome: faker.person.fullName(),
+        email: faker.internet.email(),
+        password: `${faker.number.int()}`,
+        administrador: 'true'
+    }
+}
+
 module.exports = {
     ct001,
     ct002,
