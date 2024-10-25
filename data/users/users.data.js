@@ -47,7 +47,7 @@ const ct004 = {
     }
 }
 
-const ct005 = {
+export const ct005 = {
     request: {
         nome: faker.person.fullName(),
         email: faker.internet.email(),

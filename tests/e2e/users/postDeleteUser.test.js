@@ -1,5 +1,3 @@
-
-const { ct005 } = require('../../../data/users/users.data');
 const { assert } = require('chai');
 const { deleteUsers } = require('../../../qa.core-serverest-desafio-api.pactumjs/src/services/users/deleteUsers.service');
 const { postUsers } = require('../../../qa.core-serverest-desafio-api.pactumjs/src/services/users/postUsers.service');
